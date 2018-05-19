@@ -202,6 +202,9 @@ plt.title('Pyber Ride Sharing Data (2016)')
 plt.text(30, 37, s="Note: Circle size correlates with driver count per city.", horizontalalignment="left")
 plt.text(22, 42, s="City Types")
 plt.legend(loc='upper right', markerscale = 0.5)
+
+plt.savefig("pyber_ride_sharing_data.png")
+plt.show()
 ```
 
 
@@ -307,6 +310,7 @@ plt.axis("equal")
 
 plt.title('% of Total Fares by City Type')
 
+plt.savefig("total_fares_city_type.png")
 plt.show()
 ```
 
@@ -399,6 +403,7 @@ plt.axis("equal")
 
 plt.title('% of Total Rides by City Type')
 
+plt.savefig("total_rides_city_type.png")
 plt.show()
 ```
 
@@ -495,6 +500,7 @@ plt.axis("equal")
 
 plt.title('% of Total Drivers by City Type')
 
+plt.savefig("total_drivers_city_type.png")
 plt.show()
 ```
 
